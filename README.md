@@ -96,7 +96,7 @@ solana logs                                                  # View live localne
 
 ## 🧪 Install mocha
 
-    If ts-mocha is not found, install it:
+If ts-mocha is not found, install it:
 ```bash
  npm install --save-dev ts-mocha
 ```

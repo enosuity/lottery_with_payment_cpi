@@ -30,9 +30,10 @@ anchor add payment_management
 ## 📦 Dependencies
 
 In Cargo.toml (lottery and payment_management), include:
-
+```bash
 [dependencies]
 anchor-spl = { version = "0.31.1", features = ["default"] }
+```
 
 ## 🔨 Build & Deploy
 
@@ -87,10 +88,11 @@ This executes your end-to-end flow (minting, initializing accounts, CPI transfer
     For debugging, use the solana logs or anchor test --skip-local-validator --provider.cluster localnet flags.
 
 ## 🔗 Useful Commands
-
+```bash
 solana address -k target/deploy/lottery-keypair.json        # Get lottery program ID
 solana address -k target/deploy/payment_management-keypair.json  # Get payment program ID
 solana logs                                                  # View live localnet logs
+```
 
 ## 🧪 Install mocha
 

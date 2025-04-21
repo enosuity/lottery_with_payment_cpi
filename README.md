@@ -71,12 +71,12 @@ This executes your end-to-end flow (minting, initializing accounts, CPI transfer
 
 ## 📁 Directory Structure
 
-lottery/
-├── programs/
-│   ├── lottery/              # Main lottery logic
-│   └── payment_management/   # Payment handler called via CPI
-├── tests/                    # Anchor-based Mocha tests
-└── Anchor.toml
+- lottery/
+- ├── programs/
+- │   ├── lottery/              # Main lottery logic
+- │   └── payment_management/   # Payment handler called via CPI
+- ├── tests/                    # Anchor-based Mocha tests
+- └── Anchor.toml
 
 ## 🛠️ Notes
 
